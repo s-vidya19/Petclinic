@@ -84,6 +84,11 @@
 
     <dependencyManagement>
         <dependencies>
+         <plugin>
+             <groupId>org.codehaus.mojo</groupId>
+             <artifactId>sonar-maven-plugin</artifactId>
+             <version>3.0.2</version>
+         </plugin>
             <dependency>
                 <groupId>com.fasterxml.jackson</groupId>
                 <artifactId>jackson-bom</artifactId>
@@ -327,6 +332,11 @@
                     </includes>
                 </configuration>
             </plugin>
+         <plugin>
+             <groupId>org.codehaus.mojo</groupId>
+             <artifactId>sonar-maven-plugin</artifactId>
+             <version>3.0.2</version>
+         </plugin>
 
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
